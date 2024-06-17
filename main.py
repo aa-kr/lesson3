@@ -19,8 +19,8 @@ target_x = random.randint(0, SCREEN_WIDTH - target_width)
 target_y = random.randint(0, SCREEN_HEIGHT - target_height)
 
 # Скорость движения цели
-target_speed_x = 3
-target_speed_y = 3
+target_speed_x = 0.2
+target_speed_y = 0.2
 
 # Цвет фона
 color = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
